@@ -7,12 +7,7 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 const { Entry } = require('./db');
-// const isURL = require('isurl');
-const Joi = require('@xavisoft/joi');
 const dns = require('dns');
-const { resolve } = require('path');
-const { func } = require('@xavisoft/joi');
-const e = require('express');
 const { URL } = require('url');
 
 
